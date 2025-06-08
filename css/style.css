@@ -5,8 +5,10 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  /* margin: 60px auto;
+  max-width: 800px; */
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 h1,
@@ -16,9 +18,11 @@ h3 {
   margin: 0;
 }
 
-h1 {
+h1, .h1-class{
   font-size: 96px;
 }
+
+
 
 h2 {
   font-size: 48px;
@@ -36,6 +40,18 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+
+@media (max-width: 576px) {
+  
+   .container img {
+    display: none;
+   }
+
+   .container p {
+    text-align: center;
+   }
 }
 
 .margin-topper {
@@ -111,3 +127,6 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+
+
