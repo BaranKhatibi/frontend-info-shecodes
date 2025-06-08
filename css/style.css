@@ -49,7 +49,7 @@ p {
 
   
   .col-sm-6 {
-    padding-right: 5px;
+    margin-left: 20px
   }
    .h2-class {
     font-size: 35px;
@@ -59,7 +59,7 @@ p {
     font-size: 48px;
    }
   
-   .container img {
+   .index-img {
     display: none;
    }
 
