@@ -48,6 +48,9 @@ p {
 @media (max-width: 576px) {
 
   
+  .col-sm-6 {
+    padding-right: 5px;
+  }
    .h2-class {
     font-size: 35px;
    }
